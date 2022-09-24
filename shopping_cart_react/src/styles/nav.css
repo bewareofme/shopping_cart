@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.nav_container {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+  height: 4rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav_title {
+  font-size: 2rem;
+}
+.nav_links {
+  display: flex;
+  gap: 10px;
+  font-size: 2rem;
+}
+ul > a > li > img {
+  width: 1.5rem;
+}

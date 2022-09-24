@@ -1,0 +1,28 @@
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+ul > li {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  min-height: 350px;
+  margin: 2rem;
+  justify-content: space-between;
+}
+.object_image > img {
+  width: 100%;
+  height: 80%;
+}
+.shopbuttons {
+  display: flex;
+  margin-top: auto;
+}
+.itemcosts {
+  justify-self: flex-end;
+}
+.shopbuttons > img {
+  width: 2rem;
+  cursor: pointer;
+  margin-left: auto;
+}
